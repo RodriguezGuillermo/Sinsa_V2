@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/pages/contacto.html", "destination": "/#contact", "permanent": true },
+    { "source": "/:path*", "destination": "/", "permanent": true }
+  ]
+}
