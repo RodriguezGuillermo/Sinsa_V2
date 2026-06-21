@@ -21,7 +21,6 @@ export const mediaConfig = {
       '/images/servicios/oil-and-gas/h.jpg',
       '/images/servicios/oil-and-gas/i.jpg',
       '/images/servicios/oil-and-gas/j.jpg',
-      '/images/servicios/oil-and-gas/k.jpg',
       '/images/servicios/oil-and-gas/m.jpg',
       '/images/servicios/oil-and-gas/n.jpg',
     ],
