@@ -55,6 +55,7 @@ export const mediaConfig = {
         '/images/antecedentes/irizar/h.jpg',
         '/images/antecedentes/irizar/i.jpg',
         '/images/antecedentes/irizar/j.jpg',
+        '/images/antecedentes/irizar/k.jpg',
         '/images/antecedentes/irizar/m.jpg',
       ]
     },
@@ -106,7 +107,6 @@ export const mediaConfig = {
     '/images/galeria/h.jpg',
     '/images/galeria/i.jpg',
     '/images/galeria/j.jpg',
-    '/images/galeria/k.jpg',
     '/images/galeria/m.jpg',
     '/images/galeria/n.jpg',
     '/images/galeria/o.jpg',
