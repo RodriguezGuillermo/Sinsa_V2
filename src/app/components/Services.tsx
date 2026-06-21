@@ -97,7 +97,7 @@ export function Services() {
           <path d="M12 22a7 7 0 0 0 7-7c0-4.3-7-13-7-13S5 10.7 5 15a7 7 0 0 0 7 7z"/>
         </svg>
       ),
-      title: 'Oil and Gas',
+      title: 'Oil & Gas',
       description: 'Servicios especializados para la industria.',
       tasks: [
         'Tratamiento de superficies y pinturas en interiores y exteriores de tanques, structures, cañerías y accesorios de plantas.',
