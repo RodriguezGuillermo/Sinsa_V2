@@ -198,7 +198,7 @@ export function Projects() {
                 {/* Bottom info */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <h4 className="text-lg font-bold mb-2 leading-snug">{project.title}</h4>
-                  <p className="text-sm text-gray-200 mb-4 line-clamp-2">{project.description}</p>
+                  <p className="text-sm text-gray-200 mb-4 line-clamp-2 text-justify">{project.description}</p>
                   <div className="text-[#0077B6] font-semibold text-sm group-hover:text-white transition-colors">
                     Clic para ver detalles →
                   </div>
@@ -281,14 +281,14 @@ export function Projects() {
             </div>
 
             <div className="p-8">
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">{selectedProject.description}</p>
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed text-justify">{selectedProject.description}</p>
 
               <h4 className="text-xl font-bold text-[#002855] mb-4">Trabajos Realizados:</h4>
               <ul className="space-y-3 mb-8">
                 {selectedProject.details.map((detail, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-[#0077B6] mt-2 flex-shrink-0" />
-                    <span className="text-gray-700 text-sm sm:text-base">{detail}</span>
+                    <span className="text-gray-700 text-justify text-sm sm:text-base">{detail}</span>
                   </li>
                 ))}
               </ul>

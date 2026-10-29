@@ -38,6 +38,15 @@ export const mediaConfig = {
       // Nombres exactos de servicio-gruas 
       '/images/servicios/servicio-gruas/b.jpg',
       '/images/servicios/servicio-gruas/d.jpg',
+      '/images/servicios/servicio-gruas/e.jpg',
+      '/images/servicios/servicio-gruas/f.jpg',
+      '/images/servicios/servicio-gruas/g.jpg',
+      '/images/servicios/servicio-gruas/h.jpg',
+      '/images/servicios/servicio-gruas/i.jpg',
+      '/images/servicios/servicio-gruas/j.jpg',
+      '/images/servicios/servicio-gruas/k.jpg',
+      '/images/servicios/servicio-gruas/l.jpg',
+      '/images/servicios/servicio-gruas/m.jpg',
     ],
   },
 
@@ -115,6 +124,17 @@ export const mediaConfig = {
     '/images/galeria/r.jpg',
     '/images/galeria/s.jpg',
     '/images/galeria/t.jpg',
+    '/images/galeria/u.jpg',
+    '/images/galeria/v.jpg',
+    '/images/galeria/w.jpg',
+    '/images/galeria/x.jpg',
+    '/images/galeria/y.jpg',
+    '/images/galeria/z.jpg',
+    '/images/galeria/aa.jpg',
+    '/images/galeria/ab.jpg',
+    '/images/galeria/ac.jpg',
+    '/images/galeria/ad.jpg',
+    '/images/galeria/ae.jpg',
     // ...
   ]
 };
