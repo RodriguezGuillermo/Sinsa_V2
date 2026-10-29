@@ -72,6 +72,7 @@ export function About() {
     'TGS', 'Oiltanking', 'Empesur', 'Tandanor', 'Refinería Bahía Blanca',
     'Antares Naviera', 'Enpasa', 'V. Ships', 'Boskalis', 'Argenova',
     'Consorcio de Gestión de Bahía Blanca', 'Pesquera Santa Cruz', 'Altamare', 'Arbumas',
+    'Karpa S.A', 'Pilotes Trevi',
   ];
 
   const SLOTS = 8;
@@ -109,7 +110,7 @@ export function About() {
           <div className="bg-gradient-to-r from-[#002855] to-[#00509d] rounded-2xl p-10 text-white shadow-md">
             <div className="max-w-4xl mx-auto">
               <h3 className="text-3xl font-bold mb-6">Historia y Trayectoria</h3>
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg leading-relaxed text-justify">
                 Es líder en la región, especializada en el mantenimiento de grandes superficies. Desde el año 2000 hasta la actualidad, sigue siendo una empresa en crecimiento gracias al equipo de trabajo y al apoyo y confianza que cada uno de nuestros clientes deposita en nosotros. Deseando siempre crecer, para poder brindarles más y mejores servicios.
               </p>
             </div>
@@ -128,7 +129,7 @@ export function About() {
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-[#0077B6]"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                   Capital Humano Especializado
                 </h4>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed text-justify">
                   La empresa está dotada de un gran equipo de trabajo dedicado y capacitado a los trabajos, con una amplia trayectoria en el sector naval e industrial. El objetivo de nuestra empresa es consolidar de forma creciente el liderazgo en el mercado, aplicando los principios básicos de atención y solución eficiente a las distintas necesidades requeridas por los clientes. Esto se logra con el equipo humano que integra nuestra empresa, que trabaja de manera coordinada para asegurar que los clientes encuentren siempre una óptima solución a sus necesidades.
                 </p>
               </div>
@@ -137,7 +138,7 @@ export function About() {
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-[#0077B6]"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2-1 4-2 7-2 2.5 0 4.5 1 6.5 2a1 1 0 0 1 1 1z"/></svg>
                   Certificaciones y Capacitación
                 </h4>
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <p className="text-gray-700 leading-relaxed mb-4 text-justify">
                   Nuestro equipo recibe capacitación continua en seguridad, calidad y procedimientos operativos, garantizando trabajos desarrollados bajo altos estándares de seguridad y eficiencia.
                 </p>
                 <ul className="space-y-3">
@@ -149,7 +150,7 @@ export function About() {
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-[#0077B6] mt-2 flex-shrink-0" />
-                      <span className="text-gray-700">{item}</span>
+                      <span className="text-gray-700 text-justify">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -186,7 +187,8 @@ export function About() {
                 <div className="flex items-start gap-6">
                   <div className="bg-gradient-to-br from-[#002855] to-[#00509d] rounded-xl p-4 flex-shrink-0">
                     {index === 0 ? (
-                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10 text-white"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10 text-white"><path d="M9 2v2.5M15 2v2.5M6 4.5h12l-2.6 8H8.6zM10 4.5l-1.2 8M14 4.5l-1.2 8"/>
+<path d="M12 12.5v3a3.5 3.5 0 1 1-3.5 3.5l1.2 1"/></svg>
                     ) : (
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10 text-white"><path d="M10 17h4V5H2v12h3"/><path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.92L19 9h-5v8h2"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>
                     )}
@@ -198,7 +200,7 @@ export function About() {
                         {item.capacity}
                       </span>
                     </div>
-                    <p className="text-gray-700 mb-4">{item.description}</p>
+                    <p className="text-gray-700 mb-4 text-justify">{item.description}</p>
                     <div className="grid md:grid-cols-2 gap-3">
                       {item.specs.map((spec, specIndex) => (
                         <div key={specIndex} className="flex items-start gap-2">

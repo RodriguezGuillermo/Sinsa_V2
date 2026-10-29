@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* shortcut: hyphenation keeps justified lines from stretching on narrow screens */
+.text-justify {
+  text-align: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+@media (min-width: 768px) {
+  .text-justify {
+    text-align: justify;
+  }
+}
